@@ -1,0 +1,33 @@
+{
+  "id": "ea4bffd6-d300-4ef9-8bd4-8834de1de27d",
+  "name": "Business Central Customer Rewards",
+  "publisher": "BC Demo Publisher",
+  "version": "0.1.0.2",
+  "brief": "A simple example with a Copilot demo scenario about suggesting a job/project.",
+  "description": "This is a demo extension with some sample Copilot experiences, and should not be used in production.",
+  "privacyStatement": "",
+  "source": {"repositoryUrl": "https://github.com/dmc-dk/BCCustomerRewards"},
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [  ],
+  "screenshots": [],
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 54300,
+      "to": 54399
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NoImplicitWith"
+  ],
+  "runtime": "15.2"
+}

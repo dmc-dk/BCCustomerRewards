@@ -1,4 +1,4 @@
-page 54300 "Rewards List"
+page 54300 "Rewards"
 {
     PageType = List;
     ApplicationArea = All;
