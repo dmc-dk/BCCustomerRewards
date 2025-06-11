@@ -19,6 +19,13 @@ tableextension 54301 RewardCustomerExt extends Customer
                 end;
             end;
         }
+        field(54302; "Total Reward Points"; Integer)
+        {
+            Caption = 'Total Reward Points';
+            FieldClass = FlowField;
+            CalcFormula = Sum(CustomerRewardRegister.Points WHERE("Customer No." = FIELD("No.")));
+            Editable = false;
+        }
     }
 
 }

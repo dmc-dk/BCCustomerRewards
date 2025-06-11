@@ -10,6 +10,11 @@ pageextension 54301 "Customer Card Ext" extends "Customer Card"
                 ApplicationArea = All;
                 Lookup = true;
             }
+            field("Total Reward Points"; Rec."Total Reward Points")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Shows the total reward points accumulated by this customer.';
+            }
         }
     }
 
@@ -21,6 +26,13 @@ pageextension 54301 "Customer Card Ext" extends "Customer Card"
             {
                 ApplicationArea = All;
                 RunObject = page "Rewards";
+            }
+            action("Reward Register")
+            {
+                ApplicationArea = All;
+                Caption = 'Reward Register';
+                RunObject = page "Customer Reward Register";
+                RunPageLink = "Customer No." = FIELD("No.");
             }
         }
     }

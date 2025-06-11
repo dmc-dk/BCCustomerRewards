@@ -2,7 +2,7 @@
   "id": "ea4bffd6-d300-4ef9-8bd4-8834de1de27d",
   "name": "Business Central Customer Rewards",
   "publisher": "BC Demo Publisher",
-  "version": "0.1.0.2",
+  "version": "0.1.0.3",
   "brief": "A simple example with a Copilot demo scenario about suggesting a job/project.",
   "description": "This is a demo extension with some sample Copilot experiences, and should not be used in production.",
   "privacyStatement": "",

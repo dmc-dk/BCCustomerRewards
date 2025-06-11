@@ -15,6 +15,13 @@ table 54301 Reward
         {
             Caption = 'Description';
         }
+
+        field(3; PointsPerInvoice; Integer)
+        {
+            Caption = 'Points Per Invoice';
+            DataClassification = CustomerContent;
+            ToolTip = 'Specifies how many reward points are issued per sales invoice for this reward code.';
+        }
     }
 
     keys
